@@ -7,12 +7,12 @@ const chalk = require('chalk');
  */
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 //settings owner di ./setown.js
-global.packname = 'SychBotz'
-global.owner = ["62882008702155"]
-global.botnum = ["6287862997267"]
-global.author = 'ydaa'
-global.owname = 'mzyda'
-global.botname = 'SYCHY BOTz'
+global.packname = ''
+global.owner = ["6287824856453"]
+global.botnum = ["6287824856453"]
+global.author = ''
+global.owname = ''
+global.botname = ''
 global.themeemoji = '🪀'
 global.f = '> '
 global.n = '`'
@@ -22,7 +22,7 @@ global.emot = ['🌱', '🌻', '🌞', '❄️', '🌿', '💫', '⭐', '🍃', 
 global.tempatDB = 'database.json'
 global.pairing_code = true
 global.fake = {
-    tmenu: 'https://i.ibb.co.com/7bVhfhb/3ed349054e5c77cfbebf58293d1e0df0.jpg',
+    tmenu: 'https://fantox-cosplay-api.onrender.com',
 	texz: `${botname}`,
 	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
 	thumbnailUrl: 'https://i.ibb.co.com/3rqCPX6/fk.jpg',
@@ -31,9 +31,9 @@ global.fake = {
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/pdf'],
 }
 global.my = {
-	yt: 'https://www.youtube.com/@sychyy00',
-	gh: 'https://github.com/sychyy',
-	gc: 'https://chat.whatsapp.com/GQ5Gp0eSeDS6dPBYeHE6kf',
+	yt: '',
+	gh: '',
+	gc: 'https://chat.whatsapp.com/ElU3i2J4EkOF9czValHog0',
 	ch: '120363383347233294@newsletter',
 }
 global.limit = {
