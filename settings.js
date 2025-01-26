@@ -16,7 +16,7 @@ global.botname = ''
 global.themeemoji = '🪀'
 global.f = '> '
 global.n = '`'
-global.videoMenu = fs.readFileSync('./sychMedia/menu/sych.mp4');
+global.videoMenu = fs.readFileSync('./sychMedia/menu/a46ab7fa39338b1f54d5a.mp4');
 global.listv = ['⛏', '●', '■', '✿', '▲', 'ଳ', 'ϟ', '✶', '➤', '✦', '✧', '△', '❀', '⋆𖦹', '□', '𖤓', 'ᨒ', '◇', '𖣂', '々', '〆', 'ᯓ★', '꩜', '✮']
 global.emot = ['🌱', '🌻', '🌞', '❄️', '🌿', '💫', '⭐', '🍃', '🔥', '⚡', '🫧', '🌵', '🪺', '🪨', '🪵', '🌪️', '🍄']
 global.tempatDB = 'database.json'
@@ -24,9 +24,9 @@ global.pairing_code = true
 global.fake = {
     tmenu: 'https://fantox-cosplay-api.onrender.com',
 	texz: `${botname}`,
-	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
+	anonim: 'https://fantox-cosplay-api.onrender.com',
 	thumbnailUrl: 'https://fantox-cosplay-api.onrender.com',
-	thumbnail: fs.readFileSync('./src/media/sych.png'),
+	thumbnail: 'https://fantox-cosplay-api.onrender.com',
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/pdf'],
 }
