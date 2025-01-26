@@ -16,7 +16,7 @@ global.botname = ''
 global.themeemoji = '🪀'
 global.f = '> '
 global.n = '`'
-global.videoMenu = fs.readFileSync('./sychMedia/menu/a46ab7fa39338b1f54d5a.mp4');
+global.videoMenu = fs.readFileSync('./sychMedia/menu/gif.mp4');
 global.listv = ['⛏', '●', '■', '✿', '▲', 'ଳ', 'ϟ', '✶', '➤', '✦', '✧', '△', '❀', '⋆𖦹', '□', '𖤓', 'ᨒ', '◇', '𖣂', '々', '〆', 'ᯓ★', '꩜', '✮']
 global.emot = ['🌱', '🌻', '🌞', '❄️', '🌿', '💫', '⭐', '🍃', '🔥', '⚡', '🫧', '🌵', '🪺', '🪨', '🪵', '🌪️', '🍄']
 global.tempatDB = 'database.json'
@@ -26,7 +26,7 @@ global.fake = {
 	texz: `${botname}`,
 	anonim: 'https://fantox-cosplay-api.onrender.com',
 	thumbnailUrl: 'https://fantox-cosplay-api.onrender.com',
-	thumbnail: 'https://fantox-cosplay-api.onrender.com',
+	thumbnail: fs.readFileSync('./src/media/sych.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/pdf'],
 }
